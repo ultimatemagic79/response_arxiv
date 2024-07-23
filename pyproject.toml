@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "response-arxiv"
+version = "0.1.0"
+description = ""
+authors = ["ultimatemagic79 <sea.starry.ks@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "3.12.2"
+fastapi = "^0.111.1"
+black = "^24.4.2"
+requests = "^2.32.3"
+uvicorn = "^0.30.3"
+arxiv = "^2.1.3"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
